@@ -101,8 +101,9 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/DGXeon/CheemsBot-MD3
+git clone https://github.com/LORD-Zenix/CheemsBot
 cd CheemsBot-MD
+rm -rf session.json
 npm start
 ```
 ## `For VPS`
